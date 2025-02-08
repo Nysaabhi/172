@@ -5641,6 +5641,7 @@ style.textContent = `
   padding: 16px;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   margin-bottom: 16px;
 }
 
