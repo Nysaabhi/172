@@ -5650,22 +5650,13 @@ style.textContent = `
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.provider-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.provider-header-text h2 {
+.provider-header h2 {
     font-size: 24px;
     font-weight: 600;
-    color: transparent;
+    color: #FFF;
     margin-bottom: 16px;
-    border-bottom: none;
-    text-decoration: none;
-    border: none;
-    position: relative;
+    border-bottom: none; /* Remove border */
+    text-decoration: none; /* Remove underline */
 }
 
 .provider-header-text h2::after {
