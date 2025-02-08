@@ -5635,21 +5635,6 @@ style.textContent = `
   margin: 0;
 }
 
-.provider-header-text h2 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #FFF;
-    margin-bottom: 16px;
-    border-bottom: none;
-    text-decoration: none;
-    border: none;
-    position: relative;
-}
-
-.provider-header-text h2::after {
-    content: none;
-}
-
 .provider-item {
   background: #1a1a1f;
   border-radius: 12px;
@@ -5670,6 +5655,21 @@ style.textContent = `
   justify-content: space-between;
   align-items: center;
   margin-bottom: 12px;
+}
+
+.provider-header-text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: transparent;
+    margin-bottom: 16px;
+    border-bottom: none;
+    text-decoration: none;
+    border: none;
+    position: relative;
+}
+
+.provider-header-text h2::after {
+    content: none;
 }
 
 .provider-name {
